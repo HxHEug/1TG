@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бронирование Коворкинга</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container">
+        <h1>Выберите рабочее место</h1>
+        
+        <div id="coworking-map">
+            <button class="desk-btn" data-id="1A">Место 1A</button>
+            <button class="desk-btn" data-id="1B">Место 1B</button>
+            <button class="desk-btn" data-id="2C">Место 2C</button>
+            </div>
+
+        <div id="booking-details" style="display: none;">
+            <h2>Бронирование <span id="selected-desk"></span></h2>
+            <input type="date" id="booking-date">
+            <button id="book-button">Забронировать</button>
+        </div>
+
+        <p id="message"></p>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

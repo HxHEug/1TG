@@ -1,0 +1,14 @@
+# Node modules
+/node_modules
+
+# Environment variables
+.env
+.env.local
+
+# Firebase Service Account
+*.json # Если вы скачали файл сервисного аккаунта, не выкладывайте его!
+serviceAccountKey.json # Пример названия
+
+# Логи и временные файлы
+npm-debug.log
+.DS_Store
