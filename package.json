@@ -1,0 +1,14 @@
+{
+  "name": "telegram-mini-app-booking-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for coworking space booking mini app.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.11.1" 
+  }
+}
